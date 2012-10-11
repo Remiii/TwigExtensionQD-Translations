@@ -47,7 +47,7 @@ class Remiii_Twig_Extensions_QD_i18n extends Twig_Extension
      */
     public function QD_i18l ( $aString )
     {
-        require $this -> pathToTranslations . 'messages.' . $this -> myLocale . '.php' ;
+        require $this -> pathToTranslations . 'translations.' . $this -> myLocale . '.php' ;
         if ( array_key_exists ( $aString , $languagesStrings ) )
         {
             return $languagesStrings [ $aString ] ;
