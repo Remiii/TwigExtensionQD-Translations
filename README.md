@@ -9,7 +9,7 @@ Fork this repository, add your extension, and request a pull.
 
 ## Installation
 
-```
+```bash
 $ cp ./Remiii_Twig_Extension ProjectRoot/vendor/
 ```
 
@@ -71,7 +71,7 @@ $languagesStrings = array
 ?>
 ```
 
-```twig
+```html
 {# src/view/layout.html.twig #}
 <html>
 <header>
