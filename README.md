@@ -71,6 +71,21 @@ $languagesStrings = array
 ?>
 ```
 
+```php
+<?php
+
+// src/translations/messages.fr.php
+
+$languagesStrings = array
+(
+    'hello' => 'bonjour' ,
+    'login' => 'identifiant' ,
+    'query' => 'question'
+) ;
+
+?>
+```
+
 ```html
 {# src/view/layout.html.twig #}
 <html>
