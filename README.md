@@ -1,26 +1,23 @@
-Remiii Twig Extension Repository (Quick and Dirty Translations)
-===============================================================
+# Remiii Twig Extension Repository (Quick and Dirty Translations)
+
+## About
 
 This repository hosts Remiii Twig Extension that do not belong to the core but can
 be nonetheless interesting to share with other developers.
 
 Fork this repository, add your extension, and request a pull.
 
-
-Installation
-------------
+## Installation
 
 ```
 $ cp ./Remiii_Twig_Extension ProjectRoot/vendor/
 ```
 
-
-Usage
------
+## Usage
 
 Register this Extension.
 
-```
+```php
 <?php
 
 // web/index.php
@@ -59,7 +56,7 @@ echo $twig -> render ( 'layout.html.twig' , array (
 ?>
 ```
 
-```
+```php
 <?php
 
 // src/translations/messages.en.php
@@ -74,7 +71,7 @@ $languagesStrings = array
 ?>
 ```
 
-```
+```twig
 {# src/view/layout.html.twig #}
 <html>
 <header>
@@ -88,8 +85,15 @@ $languagesStrings = array
 </html>
 ```
 
+## See also
 
-License
--------
+* http://twig.sensiolabs.org
 
-This code is released under the MIT License.
+## License
+
+mydotfiles is licensed under the MIT license (see LICENSE.md file).
+
+## Author
+
+@Remiii
+
